@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { DataProvider } from './context/DataContext';
-import Home from './components/Home';
-import AddTodo from './components/AddTodo';
-import EditTodo from './components/EditTodo';
-import TaskDetails from './components/TaskDetails';
+import { DataProvider } from './src/context/DataContext';
+import Home from './src/components/Home';
+import AddTodo from './src/components/AddTodo';
+import EditTodo from './src/components/EditTodo';
+import TaskDetails from './src/components/TaskDetails';
 
 const Stack = createNativeStackNavigator();
 
